@@ -1,7 +1,7 @@
 Requirements:
 -------------------------
 Generic:
-* Bitcoin >=0.6.4
+* C-Note (Daemon or Qt-Wallet)
 * Python
 * Twisted
 * python-argparse (for Python <=2.6)
@@ -47,7 +47,7 @@ Alternate web front end :
 -------------------------
 * https://github.com/hardcpp/P2PoolExtendedFrontEnd
 
-Notes for Litecoin:
+Notes for C-Note:
 =========================
 Requirements:
 -------------------------
