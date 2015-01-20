@@ -1,7 +1,7 @@
 Requirements:
 -------------------------
 Generic:
-* C-Note (Daemon or Qt-Wallet)
+* Dime (Daemon or Qt-Wallet)
 * Python
 * Twisted
 * python-argparse (for Python <=2.6)
@@ -39,7 +39,7 @@ Donations towards further development:
 -------------------------
     1HNeqi3pJRNvXybNX4FKzZgYJsdTSqJTbk
 
-Official wiki :
+Official p2pool wiki :
 -------------------------
 https://en.bitcoin.it/wiki/P2Pool
 
@@ -47,14 +47,17 @@ Alternate web front end :
 -------------------------
 * https://github.com/hardcpp/P2PoolExtendedFrontEnd
 
-Notes for C-Note:
+Notes for Dime:
 =========================
 Requirements:
 -------------------------
-In order to run P2Pool with the C-Note network, you would need to build and install the
-quark_hash_python module that includes the quark proof of work code that C-Note uses for hashes.
+In order to run P2Pool with the Dime network, you would need to build and install the
+quark_hash_python module that includes the quark proof of work code that Dime uses for hashes.
 
 https://github.com/Neisklar/quarkcoin-hash-python
+Install this in the top level directory of p2pool-dime then:
+./sudo python setup.py install
+
 
 Linux:
 
@@ -85,6 +88,6 @@ http://stackoverflow.com/questions/6034390/compiling-with-cython-and-mingw-produ
 
 Running P2Pool:
 -------------------------
-Run P2Pool with the "--net cnotecoin" option.
+Run P2Pool with the "--net dimecoin" option.
 
-ex) python run_p2pool.py --net cnotecoin -w 54094 -f 1 -a CKSdw1ehX79EUaUJ3i9H5ZTmgA8VWQvrJC --give-author 0
+ex) python run_p2pool.py --net dimecoin -w 54094 -f 1 -a CKSdw1ehX79EUaUJ3i9H5ZTmgA8VWQvrJC --give-author 0 -n 211.116.203.9 -n 75.69.84.211
