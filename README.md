@@ -90,4 +90,5 @@ Running P2Pool:
 -------------------------
 Run P2Pool with the "--net dimecoin" option.
 
-ex) python run_p2pool.py --net dimecoin -w 54094 -f 1 -a CKSdw1ehX79EUaUJ3i9H5ZTmgA8VWQvrJC --give-author 0 -n 211.116.203.9 -n 75.69.84.211
+Example $:
+python run_p2pool.py --net dimecoin -w 54094 -f 1 -a CKSdw1ehX79EUaUJ3i9H5ZTmgA8VWQvrJC --give-author 0 -n 211.116.203.9 -n 75.69.84.211
